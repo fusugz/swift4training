@@ -15,13 +15,17 @@ let pi = 3.1415926
 let PI:Float = 3.14
 
 //布尔类型 Bool
-if true {
-    let num = 1
+var num = 1
+let isOn:Bool = true;
+if isOn {
+    num = 1
+    print("num is \(num)")
 }else {
-    let num = 0
+    num = 0
+    print("num is \(num)")
 }
 
-//元祖
+//元组
 let info = ("iOS","Swift",4.0)
 
 let infos = (name:"jack",age:17,sex:"Male")
@@ -32,6 +36,12 @@ let showSex = infos.sex
 let message = (name:"Milanda",age:24,sex:"Male")
 let (theName,_,_) = message
 print("name is \(theName)")
+
+// 今天没带书，不知道从哪学起了
+
+
+
+
 
 
 
